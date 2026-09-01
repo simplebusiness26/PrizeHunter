@@ -1,0 +1,362 @@
+[
+  {
+    "ref": "arc-prize-2026-arc-agi-3",
+    "deadline": "2026-11-02 23:59:00",
+    "category": "Featured",
+    "reward": "850,000 Usd",
+    "teamCount": "2661",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "arc-prize-2026-arc-agi-2",
+    "deadline": "2026-11-02 23:59:00",
+    "category": "Featured",
+    "reward": "700,000 Usd",
+    "teamCount": "1727",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "arc-prize-2026-paper-track",
+    "deadline": "2026-11-09 23:59:00",
+    "category": "Featured",
+    "reward": "450,000 Usd",
+    "teamCount": "163",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "pokemon-tcg-ai-battle-challenge-strategy",
+    "deadline": "2026-09-13 23:59:00",
+    "category": "Featured",
+    "reward": "240,000 Usd",
+    "teamCount": "546",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "rsna-knee-abnormality-detection",
+    "deadline": "2026-10-22 23:59:00",
+    "category": "Research",
+    "reward": "77,000 Usd",
+    "teamCount": "2774",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "biohub-cell-tracking-during-development",
+    "deadline": "2026-09-29 23:59:00",
+    "category": "Research",
+    "reward": "60,000 Usd",
+    "teamCount": "2924",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "ai-agent-security-multi-step-tool-attacks",
+    "deadline": "2026-09-01 23:59:00",
+    "category": "Featured",
+    "reward": "50,000 Usd",
+    "teamCount": "4212",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "kaggriculture",
+    "deadline": "2026-09-30 23:59:00",
+    "category": "Featured",
+    "reward": "50,000 Usd",
+    "teamCount": "7068",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "pokemon-tcg-ai-battle",
+    "deadline": "2026-08-31 23:59:00",
+    "category": "Featured",
+    "reward": "Knowledge",
+    "teamCount": "6807",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "digit-recognizer",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "832",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "titanic",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "9699",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "house-prices-advanced-regression-techniques",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "3324",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "home-data-for-ml-course",
+    "deadline": "2030-01-01 23:59:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "3993",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "connectx",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "192",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "nlp-getting-started",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "489",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "tpu-getting-started",
+    "deadline": "2030-06-03 23:59:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "74",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "contradictory-my-dear-watson",
+    "deadline": "2030-07-01 23:59:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "50",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "store-sales-time-series-forecasting",
+    "deadline": "2030-06-30 23:59:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "665",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "spaceship-titanic",
+    "deadline": "2030-01-01 00:00:00",
+    "category": "Getting Started",
+    "reward": "Knowledge",
+    "teamCount": "1621",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "playground-series-s6e8",
+    "deadline": "2026-08-31 23:59:00",
+    "category": "Playground",
+    "reward": "Swag",
+    "teamCount": "3476",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "banana",
+    "deadline": "2025-09-08 06:59:00",
+    "category": "Community",
+    "reward": "400,000 Usd",
+    "teamCount": "826",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "ai-mathematical-olympiad-proof-pilot",
+    "deadline": "2026-06-25 10:00:00",
+    "category": "Community",
+    "reward": "210,000 Usd",
+    "teamCount": "6",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "drw-crypto-market-prediction",
+    "deadline": "2025-07-25 05:00:00",
+    "category": "Community",
+    "reward": "25,000 Usd",
+    "teamCount": "1091",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "WiDSWorldWide_GlobalDathon26",
+    "deadline": "2026-05-01 23:59:00",
+    "category": "Community",
+    "reward": "25,000 Usd",
+    "teamCount": "1754",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "ai-4-s-open-innovation-artificial-intelligence-for-life-scien",
+    "deadline": "2026-10-10 15:59:59",
+    "category": "Community",
+    "reward": "22,200 Usd",
+    "teamCount": "0",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "next-2024-hackathon",
+    "deadline": "2024-04-10 21:30:00",
+    "category": "Community",
+    "reward": "20,000 Usd",
+    "teamCount": "27",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "the-uncharted-data-challenge",
+    "deadline": "2026-05-02 23:59:00",
+    "category": "Community",
+    "reward": "20,000 Usd",
+    "teamCount": "70",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "skill-lift",
+    "deadline": "2026-08-13 06:55:00",
+    "category": "Community",
+    "reward": "20,000 Usd",
+    "teamCount": "312",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "smartphone-decimeter-2023",
+    "deadline": "2024-05-23 23:59:00",
+    "category": "Community",
+    "reward": "15,000 Usd",
+    "teamCount": "279",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "flag-os-open-computing-global-challenge-season-2",
+    "deadline": "2026-12-30 16:00:00",
+    "category": "Community",
+    "reward": "14,925 Usd",
+    "teamCount": "0",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "rohlik-orders-forecasting-challenge",
+    "deadline": "2024-08-23 21:55:00",
+    "category": "Community",
+    "reward": "12,000 Usd",
+    "teamCount": "1017",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "rohlik-sales-forecasting-challenge-v2",
+    "deadline": "2025-02-14 23:00:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "777",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "detect-ai-vs-human-generated-images",
+    "deadline": "2025-03-07 23:59:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "554",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "el-hackathon-2025",
+    "deadline": "2025-05-17 18:29:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "355",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "mencoba-kompetisi",
+    "deadline": "2025-04-11 04:50:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "0",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "croo-ai-agent-hackathon-10-k-usd-prize-pool",
+    "deadline": "2026-07-12 16:00:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "32",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "scripture-in-new-frontiers",
+    "deadline": "2026-08-01 04:59:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "72",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "cuhk-x-competition-small-model-track",
+    "deadline": "2026-09-15 15:55:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "268",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "cuhk-x-competition-large-model-track",
+    "deadline": "2026-09-15 15:55:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "161",
+    "userHasEntered": "False",
+    "userRank": "0"
+  },
+  {
+    "ref": "atomcamp-build-with-gemma",
+    "deadline": "2026-07-30 11:30:00",
+    "category": "Community",
+    "reward": "10,000 Usd",
+    "teamCount": "0",
+    "userHasEntered": "False",
+    "userRank": "0"
+  }
+]
