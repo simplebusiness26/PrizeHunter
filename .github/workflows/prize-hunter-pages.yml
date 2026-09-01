@@ -1,0 +1,52 @@
+name: Deploy Prize Hunter Dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'prize-hunter/dashboard/**'
+      - 'prize-hunter/latest.json'
+      - 'prize-hunter/dossiers/latest.json'
+      - '.github/workflows/prize-hunter-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Build static dashboard
+        run: |
+          mkdir -p _site/prize-hunter
+          cp prize-hunter/dashboard/index.html _site/prize-hunter/index.html
+          cp prize-hunter/latest.json _site/prize-hunter/latest.json
+          cp prize-hunter/dossiers/latest.json _site/prize-hunter/dossiers.json
+          touch _site/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
