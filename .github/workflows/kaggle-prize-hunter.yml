@@ -1,0 +1,70 @@
+name: Kaggle Prize Hunter
+
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'prize-hunter/control.json'
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+
+    steps:
+      - name: Checkout Prize Hunter
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Kaggle CLI
+        run: |
+          pip install -r requirements.txt
+          pip install --upgrade "git+https://github.com/Kaggle/kaggle-cli.git@659469c4185cfca0fb3be01edad6f50277528d9d"
+
+      - name: Stage 1 - scan and rank active competitions
+        run: python prize_hunter.py
+
+      - name: Stage 2 - build public competition dossiers
+        run: python prize_dossier_v2.py --top 5
+
+      - name: Stage 2B - merge verified web evidence
+        run: python prize_dossier_merge.py
+
+      - name: Commit Prize Hunter reports and dossiers
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git pull --rebase --autostash origin main
+
+          git add prize-hunter/latest.md prize-hunter/latest.json prize-hunter/feed.json prize-hunter/history/ prize-hunter/dossiers/
+          if git diff --cached --quiet; then
+            echo "No Prize Hunter changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Prize Hunter daily scan and dossiers"
+
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt raced with another commit; rebasing and retrying."
+            git pull --rebase origin main
+          done
+
+          echo "Prize Hunter could not publish reports after 3 retries."
+          exit 1
